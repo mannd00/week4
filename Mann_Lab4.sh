@@ -29,7 +29,7 @@ sleep 5
 cd /mnt/tmp; ls
 echo "Hello World" > hello.txt
 
-sudo unmount /mnt/tmp
+sudo umount /mnt/tmp
 
 echo "Now we will see if we can find our hello text in the hexdump"
 
