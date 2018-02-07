@@ -35,7 +35,7 @@ echo "Now we will see if we can find our hello text in the hexdump"
 
 sleep 2
 cd /tmp
-hexdump --canonical ./32MB.img | less
+hexdump -c ./32MB.img | less
 
 
 
