@@ -37,5 +37,5 @@ sleep 2
 cd /tmp
 hexdump --canonical ./32MB.img | less
 
-echo "10"
+
 
