@@ -15,7 +15,7 @@ echo " next we will checkout whats in there."
 hexdump ./32MB.img | less
 
 echo "Next we format it with ext4 filesystem"
-mkfs -t ext4 ./32MB.img
+sudo mkfs -t ext4 ./32MB.img
 echo "Finally, mount the image so we can put stuff in it"
 sleep 5
 
